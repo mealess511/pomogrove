@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#24483A"/>
+      <stop offset="1" stop-color="#12271E"/>
+    </linearGradient>
+    <linearGradient id="tomato" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#F16B4F"/>
+      <stop offset="1" stop-color="#D94730"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#F2B441" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#F2B441" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="116" fill="url(#bg)"/>
+  <circle cx="256" cy="276" r="190" fill="url(#glow)"/>
+  <g>
+    <path d="M256 144c-22-43-14-77 15-101 9 39 33 57 73 59-16 36-45 54-78 54" fill="#4E8E63"/>
+    <path d="M256 152c-51-59-108-58-150-19 37 36 83 49 150 19Z" fill="#5FA173"/>
+    <path d="M256 160c53-55 111-51 151-11-39 34-86 46-151 11Z" fill="#3F7A55"/>
+    <path d="M256 413c-91 0-162-63-162-157 0-63 44-106 103-106 26 0 45 7 59 20 14-13 33-20 59-20 59 0 103 43 103 106 0 94-71 157-162 157Z" fill="url(#tomato)"/>
+    <path d="M158 229c20-36 55-49 90-32-24 25-55 37-90 32Z" fill="#F49A83" opacity=".9"/>
+    <ellipse cx="347" cy="286" rx="25" ry="38" fill="#F6A08B" opacity=".4" transform="rotate(-24 347 286)"/>
+    <ellipse cx="240" cy="383" rx="71" ry="10" fill="#A52F20" opacity=".22"/>
+  </g>
+</svg>
